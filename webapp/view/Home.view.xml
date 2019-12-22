@@ -1,0 +1,51 @@
+<mvc:View controllerName="com.todo.TO-DO.controller.Home" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="TODO'S">
+					<content>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Add a new TODO" subheader="Subtitle"
+							press="onAddToDo">
+							<TileContent>
+							
+							</TileContent>
+						</GenericTile>
+							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Pending TODOs" subheader="Subtitle"
+							press="onPendingToDo">
+							<TileContent>
+							
+							</TileContent>
+						</GenericTile>
+							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Finished TODOs" subheader="Subtitle"
+							press="press">
+							<TileContent>
+							
+							</TileContent>
+						</GenericTile>
+					</content>
+					<Toolbar>
+						<Label text="Recent TODOs"></Label>
+					</Toolbar>
+						<GenericTile 	frameType="TwoByOne" class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Recent TODO" subheader="Subtitle"
+							press="press">
+							<TileContent>
+							
+							</TileContent>
+						</GenericTile>
+							<GenericTile  class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Recent TODO" subheader="Subtitle"
+							press="press">
+							<TileContent>
+							
+							</TileContent>
+						</GenericTile>
+							<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Recent TODO" subheader="Subtitle"
+							press="press">
+							<TileContent>
+							
+							</TileContent>
+						</GenericTile>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

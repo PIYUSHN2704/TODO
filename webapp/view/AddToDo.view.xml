@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+	controllerName="com.todo.TO-DO.controller.AddToDo" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Add a New TODO">
+				<content>
+					<f:SimpleForm editable="true">
+					        <Label  text="Title"></Label>
+					        <Input id="idInput"></Input>
+							<Label text="Description"></Label>
+							<TextArea id="iddescription"></TextArea>
+							<Label text="Expiry Date"></Label>
+							<DatePicker  displayFormat="MMM d, y" id="idDatePicker"></DatePicker>
+							<Button text="Submit" press="onAddToDo"></Button>
+					
+					</f:SimpleForm>
+					<Button text="Home Page" press="onHome"></Button>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
