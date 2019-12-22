@@ -4,10 +4,10 @@
 		<pages>
 			<Page title="Add a New TODO">
 				<content>
-					<f:SimpleForm editable="true">
+					<f:SimpleForm editable="false">
 					        <Label  text="Title"></Label>
 					        <Input id="idInput"></Input>
-							<Label text="Descriptioooon"></Label>
+							<Label text="Description"></Label>
 							<TextArea id="iddescription"></TextArea>
 							<Label text="Expiry Date"></Label>
 							<DatePicker  displayFormat="MMM d, y" id="idDatePicker"></DatePicker>
