@@ -5,7 +5,7 @@
 			<Page title="Add a New TODO">
 				<content>
 					<f:SimpleForm editable="true">
-					        <Label  text="Title"></Label>
+					        <Label  text="Titleeee"></Label>
 					        <Input id="idInput"></Input>
 							<Label text="Description"></Label>
 							<TextArea id="iddescription"></TextArea>
