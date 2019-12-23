@@ -7,7 +7,7 @@
 					<f:SimpleForm editable="false">
 					        <Label  text="Title + title"></Label>
 					        <Input id="idInput"></Input>
-							<Label text="Description"></Label>
+							<Label text="Descriptidhfdjon"></Label>
 							<TextArea id="iddescription"></TextArea>
 							<Label text="Expiry Date"></Label>
 							<DatePicker  displayFormat="MMM d, y" id="idDatePicker"></DatePicker>
